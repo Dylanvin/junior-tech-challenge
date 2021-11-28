@@ -12,9 +12,9 @@ Or alternatively build, test, and run using the IDE of your choice, e.g. Intelli
 
 ## Staring API
 
-From the root of this project, run ```mvnw spring-boot:run``` in the terminal
+From the root of this project, run ```./mvnw spring-boot:run``` in the terminal
 to start the program. Alternatively, build a jar with maven using the life cycle 
-tools window or by using ```mvnw clean package``` from the root of the project.
+tools window or by using ```./mvnw clean package``` from the root of the project.
 
 If you choose to create a jar, run ```java -jar target/challenge-0.0.1-SNAPSHOT.jar``` 
 in the terminal from the root of the project to start the program.
