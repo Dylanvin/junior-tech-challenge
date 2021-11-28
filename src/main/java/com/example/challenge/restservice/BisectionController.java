@@ -1,12 +1,12 @@
 package com.example.challenge.restservice;
 
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.function.DoubleUnaryOperator;
-
+import com.example.challenge.bisection.BisectionMethod;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.challenge.bisection.BisectionMethod;
+
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.function.DoubleUnaryOperator;
 
 @RestController
 public class BisectionController {
